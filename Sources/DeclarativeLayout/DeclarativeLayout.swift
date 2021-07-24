@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - Edge insets
 public extension UIEdgeInsets {
-    public static func fill(with value: CGFloat) -> UIEdgeInsets {
+    static func fill(with value: CGFloat) -> UIEdgeInsets {
         return UIEdgeInsets(top: value, left: value, bottom: value, right: value)
     }
 }
